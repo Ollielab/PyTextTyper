@@ -5,7 +5,16 @@ import sys
 import os
 
 init()
-lines = []
+class colour:
+    BLACK = Fore.BLACK
+    RED = Fore.RED
+    GREEN = Fore.GREEN
+    YELLOW = Fore.YELLOW
+    BLUE = Fore.BLUE
+    MAGENTA = Fore.MAGENTA
+    CYAN = Fore.CYAN
+    WHITE = Fore.WHITE
+    RESET = Fore.RESET
 
 def twsleep(seconds):
     """
@@ -19,17 +28,6 @@ def twclear(seconds_till_clear = 0):
     """
     sleep(seconds_till_clear)
     os.system("clear")
-
-class colour:
-    BLACK = Fore.BLACK
-    RED = Fore.RED
-    GREEN = Fore.GREEN
-    YELLOW = Fore.YELLOW
-    BLUE = Fore.BLUE
-    MAGENTA = Fore.MAGENTA
-    CYAN = Fore.CYAN
-    WHITE = Fore.WHITE
-    RESET = Fore.RESET
 
 def twcolour(colour):
     """
@@ -60,12 +58,6 @@ def twinput(text, type_speed = 0.05):
     for char in text:
         print(char, end='')
         sys.stdout.flush()
-        twsleep(type_speed)
+        sleep(type_speed)
     value = input()  
     return value
-
-twclear()
-twart("Ollie's Text Engine!")
-twtext("Welcome!\n", 0.2)
-
-twclear()
