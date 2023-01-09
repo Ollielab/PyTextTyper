@@ -10,7 +10,6 @@ Python text engine which prints text to the console, complete with animations, c
 # Installation
 `pip import pytextwriter`
 
-<br>
 <h1>Dependencies</h1>
 PyTextWriter is dependent on <a href="https://github.com/sepandhaghighi/art">Art</a>, which is automatically setup. This means any functions that use Art might not function as intended due to compatability issues. The required version of Python is 3.6 and newer.
 
