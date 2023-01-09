@@ -1,2 +1,2 @@
 # PyTypeWriter
- Python text engine with loads of different functions.
+Python text engine with animations, colors and ASCII art!

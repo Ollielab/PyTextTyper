@@ -1,17 +1,17 @@
 import setuptools
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
+with open("README.md", "r") as readme:
+    long_description = readme.read()
 
 setuptools.setup(
-    name="PyTypeWriter", # Replace with your own username
-    version="0.0.1",
+    name="PyTypeWriter",
+    version="0.1",
     author="Ollielab",
     author_email="mail@ollielab.xyz",
-    description="Python typewriter.",
+    description="Python text engine with animations, colors and ASCII art!",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/driscollis/arithmetic",
+    url="https://github.com/Ollielab/PyTypeWriter",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
