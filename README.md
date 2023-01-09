@@ -3,7 +3,8 @@ Python text engine which prints text to the console complete with animations, co
 # Installation
 ``pip import pytextwriter``
 
-or
+# Dependencies and Requirements
+PyTextWriter relies on a [Art](https://github.com/sepandhaghighi/art) which is automatically handled. This does mean that any functions that relie on Art might not function as intended due to compatability issues. The required version of Python is 3.6 and newer.
 
-python3 -m pip install --upgrade build
-python3 -m build
+# Contribute
+To contribute to the project, please visit the [GITHUB](https://github.com/Ollielab/PyTextWriter/tree/main)
