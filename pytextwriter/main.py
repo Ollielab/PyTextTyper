@@ -59,6 +59,7 @@ def twart(text_to_ascii):
     """
     'twart' Prints text as ASCII art. Required parameter 'text_to_ascii'.
     """
+    print('\n')
     tprint(text_to_ascii)
     sys.stdout.flush()
 
