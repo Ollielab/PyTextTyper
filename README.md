@@ -1,10 +1,19 @@
-Python text engine which prints text to the console complete with animations, colors, and ASCII art!
+<h1 align="center">
+<img src="logo.png" width="400">
+</h1>
+
+<p align="center">
+Python text engine which prints text to the console, complete with animations, colors, and ASCII art using [Art](https://github.com/sepandhaghighi/art)!
+</p>
+
 
 # Installation
-``pip import pytextwriter``
+`pip import pytextwriter`
 
-# Dependencies and Requirements
-PyTextWriter relies on a [Art](https://github.com/sepandhaghighi/art) which is automatically handled. This does mean that any functions that relie on Art might not function as intended due to compatability issues. The required version of Python is 3.6 and newer.
+<br>
+<h1>Dependencies</h1>
+PyTextWriter is dependent on a [Art](https://github.com/sepandhaghighi/art) which is automatically installed by setuptools. This means any functions that use Art might not function as intended due to compatability issues. The required version of Python is 3.6 and newer.
 
-# Contribute
-To contribute to the project, please visit the [GITHUB](https://github.com/Ollielab/PyTextWriter/tree/main)
+<br>
+<h1>Contribute</h1>
+To contribute to the project, please visit the [Github](https://github.com/Ollielab/PyTextWriter/tree/main)
