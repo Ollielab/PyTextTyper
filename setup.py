@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="PyTypeWriter-CoolOllie2", # Replace with your own username
+    name="PyTypeWriter", # Replace with your own username
     version="0.0.1",
     author="Ollielab",
     author_email="mail@ollielab.xyz",
