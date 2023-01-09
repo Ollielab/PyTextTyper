@@ -1,3 +1,7 @@
 # Table of contents
 
-* [PyTextWriter Documentation](README.md)
+* [Documentation](README.md)
+
+## Functions
+
+* [Page 1](functions/page-1.md)

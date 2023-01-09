@@ -1,10 +1,10 @@
 ---
 description: >-
   PyTextWriter is a text engine written in python which prints text to the
-  console, fully complete with animations, colors, and ASCII art.
+  console, fully complete with animations, colors, and ASCII art!
 ---
 
-# PyTextWriter Documentation
+# Documentation
 
 ## Installation
 
