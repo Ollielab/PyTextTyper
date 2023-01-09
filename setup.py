@@ -4,14 +4,14 @@ with open("README.md", "r") as readme:
     long_description = readme.read()
 
 setuptools.setup(
-    name="PyTypeWriter",
+    name="PyTextWriter",
     version="0.1",
     author="Ollielab",
     author_email="mail@ollielab.xyz",
     description="Python text engine with animations, colors and ASCII art!",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Ollielab/PyTypeWriter",
+    url="https://github.com/Ollielab/PyTextWriter",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
