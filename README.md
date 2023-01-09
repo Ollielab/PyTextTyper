@@ -1,6 +1,6 @@
 ---
 description: >-
-  PyTextWriter is a text engine written in python which prints text to the
+  PyTextTyper is a text engine written in python which prints text to the
   console, fully complete with animations, colors, and ASCII art!
 ---
 
@@ -9,12 +9,12 @@ description: >-
 ## Installation
 
 ```
-// pip import pytextwriter 
+// pip import pytextTyper
 ```
 
 ## Dependencies
 
-PyTextWriter is dependent on [Art](https://github.com/sepandhaghighi/art), which is automatically setup. This means any functions that use Art might not function as intended due to compatability issues. The required version of Python is 3.6 and newer.&#x20;
+PyTextTyper is dependent on [Art](https://github.com/sepandhaghighi/art), which is automatically setup. This means any functions that use Art might not function as intended due to compatability issues. The required version of Python is 3.6 and newer.&#x20;
 
 ## Contribute
 
