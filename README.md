@@ -9,7 +9,7 @@ description: >-
 ## Installation
 
 ```
-// pip import pytextTyper
+// pip import pytexttyper
 ```
 
 ## Dependencies
