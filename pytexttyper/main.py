@@ -89,7 +89,3 @@ def phold():
     """
     input()
     return
-
-part("text")
-phold()
-ptext("Hello")
