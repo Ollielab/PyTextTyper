@@ -87,5 +87,9 @@ def phold():
     """
     'phold' waits for user input before it continues.
     """
-    value = input()
-    return value
+    input()
+    return
+
+part("text")
+phold()
+ptext("Hello")
