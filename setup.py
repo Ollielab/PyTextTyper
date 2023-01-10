@@ -5,7 +5,7 @@ with open("README.md", "r") as readme:
 
 setuptools.setup(
     name="PyTextTyper",
-    version="0.3.4",
+    version="0.3.5",
     author="Ollielab",
     author_email="mail@ollielab.xyz",
     description="PyTextTyper is a text engine written in python which prints text to the console, fully complete with animations, colors, and ASCII art!",
