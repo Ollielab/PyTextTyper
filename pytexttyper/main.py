@@ -82,3 +82,10 @@ def pinput(text, type_speed = 0.05):
         sleep(type_speed)
     value = input()
     return value
+
+def phold():
+    """
+    'phold' waits for user input before it continues.
+    """
+    value = input()
+    return value
