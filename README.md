@@ -23,4 +23,4 @@ PyTextTyper is reliant on <a href="https://github.com/sepandhaghighi/art">Art</a
 
 <br>
 <h1>Contribute</h1>
-To contribute to the project, please visit the <a href="https://github.com/Ollielab/PyTextTyper">Github</a>.
+If you wish to contribute to the project, please visit the <a href="https://github.com/Ollielab/PyTextTyper">Github</a>.
