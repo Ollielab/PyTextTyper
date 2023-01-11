@@ -51,13 +51,13 @@ def clear(seconds_till_clear = 0):
 
 def color(colors):
     """
-    'color' from PyTextTyper, sets program's console text colour. Required parameter 'colour'. BLACK, RED, GREEN, ORANGE, BLUE, PURPLE, CYAN, LIGHTGREY, DARKGREY, LIGHTRED, LIGHTGREEN, YELLOW, LIGHTBLUE, PINK, LIGHTCYAN, RESET.
+    'color' from PyTextTyper, sets program's console text color. Required parameter 'colors'. BLACK, RED, GREEN, ORANGE, BLUE, PURPLE, CYAN, LIGHTGREY, DARKGREY, LIGHTRED, LIGHTGREEN, YELLOW, LIGHTBLUE, PINK, LIGHTCYAN, RESET.
     """
     print(colors, end = '')
 
 def style(styles):
     """
-    'style' from PyTextTyper, sets program's console text style. Example: twstyle(style.BOLD) Required parameter 'style'. RESET, BOLD, DISABLE, UNDERLINE, REVERSE, STRIKETHROUGH, INVISIBLE.
+    'style' from PyTextTyper, sets program's console text style. Required parameter 'styles'. RESET, BOLD, DISABLE, UNDERLINE, REVERSE, STRIKETHROUGH, INVISIBLE.
     """
     print(styles, end = '')
 
@@ -78,9 +78,9 @@ def text(text, type_speed = 0.05):
         sys.stdout.flush()
         sleep(type_speed)
 
-def input(text, type_speed = 0.05):
+def question(text, type_speed = 0.05):
     """
-    'input' from PyTextTyper, prints text with typewriter animation with optional ajustable speed then waits for user input which it returns. Required parameter 'text'. Optional parameter 'type_speed', default = 0.05.
+    'question' from PyTextTyper, prints text with typewriter animation with optional ajustable speed then waits for user input which it returns. Required parameter 'text'. Optional parameter 'type_speed', default = 0.05.
     """
     for char in text:
         print(char, end='')
