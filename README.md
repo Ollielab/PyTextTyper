@@ -12,10 +12,12 @@ description: >-
 // pip import pytexttyper
 ```
 
+Hosted on [PyPi](https://pypi.org/project/PyTextTyper/).
+
 ## Dependencies
 
-PyTextTyper is dependent on [Art](https://github.com/sepandhaghighi/art), which is automatically setup. This means any functions that use Art might not function as intended due to compatability issues. The required version of Python is 3.6 and newer.&#x20;
+PyTextTyper is reliant on [Art](https://github.com/sepandhaghighi/art), which is automatically setup. This means some functions might not work as intended due to compatability issues. The required version of Python is 3.6 and newer.
 
 ## Contribute
 
-To contribute to the project, please visit the [Github](https://github.com/Ollielab/PyTextWriter).
+If you wish to contribute to the project, please visit the [Github](https://github.com/Ollielab/PyTextWriter).
