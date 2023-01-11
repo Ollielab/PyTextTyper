@@ -13,7 +13,6 @@ PyTextTyper is a text engine written in python which prints text to the console,
 <br><br>
 Hosted on <a href="https://pypi.org/project/PyTextTyper/">PyPi</a>.
 
-<br>
 <h1>Documentation</h1>
 Documentation is stored on the offical website hosted on Gitbook at <a href="https://pytexttyper.ollielab.xyz">https://pytexttyper.ollielab.xyz</a>.
 
