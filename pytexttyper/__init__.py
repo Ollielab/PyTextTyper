@@ -1,1 +1,1 @@
-from .main import sleep, art, clear, color, input, style, text, hold, colors, styles
+from .main import sleep, art, clear, color, question, style, text, hold, colors, styles

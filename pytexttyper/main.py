@@ -38,32 +38,32 @@ class styles:
 
 def wait(seconds):
     """
-    'wait' from PyTextTyper, rests program for a specified amount of time. Required parameter 'seconds'.
+    'wait()' from PyTextTyper, rests program for a specified amount of time. Required parameter 'seconds'.
     """
     sleep(seconds)
 
 def clear(seconds_till_clear = 0):
     """
-    'clear' from PyTextTyper, clears program console. Optional parameter 'seconds_till_clear', default = 0.
+    'clear()' from PyTextTyper, clears program console. Optional parameter 'seconds_till_clear', default = 0.
     """
     sleep(seconds_till_clear)
     os.system("clear")
 
 def color(colors):
     """
-    'color' from PyTextTyper, sets program's console text color. Required parameter 'colors'. BLACK, RED, GREEN, ORANGE, BLUE, PURPLE, CYAN, LIGHTGREY, DARKGREY, LIGHTRED, LIGHTGREEN, YELLOW, LIGHTBLUE, PINK, LIGHTCYAN, RESET.
+    'color()' from PyTextTyper, sets program's console text color. Required parameter 'colors'. BLACK, RED, GREEN, ORANGE, BLUE, PURPLE, CYAN, LIGHTGREY, DARKGREY, LIGHTRED, LIGHTGREEN, YELLOW, LIGHTBLUE, PINK, LIGHTCYAN, RESET.
     """
     print(colors, end = '')
 
 def style(styles):
     """
-    'style' from PyTextTyper, sets program's console text style. Required parameter 'styles'. RESET, BOLD, DISABLE, UNDERLINE, REVERSE, STRIKETHROUGH, INVISIBLE.
+    'style()' from PyTextTyper, sets program's console text style. Required parameter 'styles'. RESET, BOLD, DISABLE, UNDERLINE, REVERSE, STRIKETHROUGH, INVISIBLE.
     """
     print(styles, end = '')
 
 def art(text_to_ascii):
     """
-    'art' from PyTextTyper, Prints text as ASCII art. Required parameter 'text_to_ascii'.
+    'art()' from PyTextTyper, Prints text as ASCII art. Required parameter 'text_to_ascii'.
     """
     print('\n')
     tprint(text_to_ascii)
@@ -71,7 +71,7 @@ def art(text_to_ascii):
 
 def text(text, type_speed = 0.05):
     """
-    'text' from PyTextTyper, prints text with typewriter animation with optional ajustable speed. Required parameter 'text'. Optional parameter 'type_speed', default = 0.05.
+    'text()' from PyTextTyper, prints text with typewriter animation with optional ajustable speed. Required parameter 'text'. Optional parameter 'type_speed', default = 0.05.
     """
     for char in text:
         print(char, end = '')
@@ -80,7 +80,7 @@ def text(text, type_speed = 0.05):
 
 def question(text, type_speed = 0.05):
     """
-    'question' from PyTextTyper, prints text with typewriter animation with optional ajustable speed then waits for user input which it returns. Required parameter 'text'. Optional parameter 'type_speed', default = 0.05.
+    'question()' from PyTextTyper, prints text with typewriter animation with optional ajustable speed then waits for user input which it returns. Required parameter 'text'. Optional parameter 'type_speed', default = 0.05.
     """
     for char in text:
         print(char, end='')
@@ -91,7 +91,7 @@ def question(text, type_speed = 0.05):
 
 def hold():
     """
-    'hold' from PyTextTyper, waits for user input before it continues.
+    'hold()' from PyTextTyper, waits for user input before continuing.
     """
     input()
     return
