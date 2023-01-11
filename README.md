@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://github.com/Ollielab/PyTextTyper/blob/main/images/logo.svg">
+<img src="https://github.com/Ollielab/PyTextTyper/blob/main/logo.svg">
 </h1>
 
 <p align="center">
