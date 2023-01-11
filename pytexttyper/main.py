@@ -3,7 +3,10 @@ from time import sleep
 import sys
 import os
 
-class color:
+class colors:
+    """
+    'colors' from PyTextTyper, selection of colors to use with color().
+    """
     BLACK = '\033[30m'
     RED = '\033[31m'
     GREEN = '\033[32m'
@@ -21,7 +24,10 @@ class color:
     LIGHTCYAN = '\033[96m'
     RESET = '\033[0m'
 
-class style:
+class styles:
+    """
+    'styles' from PyTextTyper, selection of styles to use with style().
+    """
     RESET = '\033[0m'
     BOLD = '\033[01m'
     DISABLE = '\033[02m'
@@ -30,51 +36,51 @@ class style:
     STRIKETHROUGH = '\033[09m'
     INVISIBLE = '\033[08m'
 
-def psleep(seconds):
+def wait(seconds):
     """
-    'psleep' rests program for a specified amount of time. Required parameter 'seconds'.
+    'wait' from PyTextTyper, rests program for a specified amount of time. Required parameter 'seconds'.
     """
     sleep(seconds)
 
-def pclear(seconds_till_clear = 0):
+def clear(seconds_till_clear = 0):
     """
-    'pclear' clears program console. Optional parameter 'seconds_till_clear'.
+    'clear' from PyTextTyper, clears program console. Optional parameter 'seconds_till_clear', default = 0.
     """
     sleep(seconds_till_clear)
     os.system("clear")
 
-def pcolor(color):
+def color(colors):
     """
-    'pcolor' sets program's console text colour. Required parameter 'colour'. BLACK, RED, GREEN, ORANGE, BLUE, PURPLE, CYAN, LIGHTGREY, DARKGREY, LIGHTRED, LIGHTGREEN, YELLOW, LIGHTBLUE, PINK, LIGHTCYAN, RESET.
+    'color' from PyTextTyper, sets program's console text colour. Required parameter 'colour'. BLACK, RED, GREEN, ORANGE, BLUE, PURPLE, CYAN, LIGHTGREY, DARKGREY, LIGHTRED, LIGHTGREEN, YELLOW, LIGHTBLUE, PINK, LIGHTCYAN, RESET.
     """
-    print(color, end = '')
+    print(colors, end = '')
 
-def pstyle(style):
+def style(styles):
     """
-    'pstyle' sets program's console text style. Example: twstyle(style.BOLD) Required parameter 'style'. RESET, BOLD, DISABLE, UNDERLINE, REVERSE, STRIKETHROUGH, INVISIBLE.
+    'style' from PyTextTyper, sets program's console text style. Example: twstyle(style.BOLD) Required parameter 'style'. RESET, BOLD, DISABLE, UNDERLINE, REVERSE, STRIKETHROUGH, INVISIBLE.
     """
-    print(style, end = '')
+    print(styles, end = '')
 
-def part(text_to_ascii):
+def art(text_to_ascii):
     """
-    'part' Prints text as ASCII art. Required parameter 'text_to_ascii'.
+    'art' from PyTextTyper, Prints text as ASCII art. Required parameter 'text_to_ascii'.
     """
     print('\n')
     tprint(text_to_ascii)
     sys.stdout.flush()
 
-def ptext(text, type_speed = 0.05):
+def text(text, type_speed = 0.05):
     """
-    'ptext' prints text with typewriter animation with optional ajustable speed. Required parameter 'text'. Optional parameter 'type_speed', default = 0.05.
+    'text' from PyTextTyper, prints text with typewriter animation with optional ajustable speed. Required parameter 'text'. Optional parameter 'type_speed', default = 0.05.
     """
     for char in text:
         print(char, end = '')
         sys.stdout.flush()
-        psleep(type_speed)
+        sleep(type_speed)
 
-def pinput(text, type_speed = 0.05):
+def input(text, type_speed = 0.05):
     """
-    'pinput' prints text with typewriter animation with optional ajustable speed then waits for user input which it returns. Required parameter 'text'. Optional parameter 'type_speed', default = 0.05.
+    'input' from PyTextTyper, prints text with typewriter animation with optional ajustable speed then waits for user input which it returns. Required parameter 'text'. Optional parameter 'type_speed', default = 0.05.
     """
     for char in text:
         print(char, end='')
@@ -83,9 +89,9 @@ def pinput(text, type_speed = 0.05):
     value = input()
     return value
 
-def phold():
+def hold():
     """
-    'phold' waits for user input before it continues.
+    'hold' from PyTextTyper, waits for user input before it continues.
     """
     input()
     return

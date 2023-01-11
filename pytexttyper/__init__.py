@@ -1,1 +1,1 @@
-from .main import psleep, part, pclear, pcolor, pinput, pstyle, ptext, phold, color, style
+from .main import sleep, art, clear, color, input, style, text, hold, colors, styles

@@ -7,15 +7,19 @@ PyTextTyper is a text engine written in python which prints text to the console,
 </p>
 
 
-# Installation
-`pip import pytexttyper`
+<h1>Installation</h1>
 
+`pip import pytexttyper`
+<br><br>
+Hosted on <a href="https://pypi.org/project/PyTextTyper/">PyPi</a>.
+
+<br>
 <h1>Documentation</h1>
 Documentation is stored on the offical website hosted on Gitbook at <a href="https://pytexttyper.ollielab.xyz">https://pytexttyper.ollielab.xyz</a>.
 
 <br>
 <h1>Dependencies</h1>
-PyTexttyper is dependent on <a href="https://github.com/sepandhaghighi/art">Art</a>, which is automatically setup. This means any functions that use Art might not function as intended due to compatability issues. The required version of Python is 3.6 and newer.
+PyTextTyper is reliant on <a href="https://github.com/sepandhaghighi/art">Art</a>, which is automatically setup. This means some functions might not work as intended due to compatability issues. The required version of Python is 3.6 and newer.
 
 <br>
 <h1>Contribute</h1>
