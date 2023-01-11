@@ -13,7 +13,7 @@ def long_description():
 
 setuptools.setup(
     name="PyTextTyper",
-    version="0.4.5",
+    version="0.4.6",
     author="Ollielab",
     author_email="mail@ollielab.xyz",
     description="PyTextTyper is a text engine written in python which prints text to the console, fully complete with animations, colors, and ASCII art!",

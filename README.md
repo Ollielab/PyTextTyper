@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://github.com/ollielab/pytexttyper/raw/main/logo.svg">
+<img src="https://github.com/ollielab/pytexttyper/raw/main/images/logo.png">
 </h1>
 
 <p align="center">
