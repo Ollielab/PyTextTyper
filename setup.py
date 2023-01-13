@@ -16,7 +16,7 @@ setuptools.setup(
     version="1.0.1",
     author="Ollielab",
     author_email="mail@ollielab.xyz",
-    description=minimal_description(),
+    description="PyTextTyper is a text engine written in python which prints text to the console, fully complete with animations, colors, and ASCII art!",
     long_description=long_description(),
     long_description_content_type="text/markdown",
     url="https://github.com/Ollielab/PyTextTyper",
