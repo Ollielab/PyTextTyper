@@ -7,11 +7,7 @@
 ## Example:
 
 ```python
-import pytexttyper
+from pytexttyper import *
 
 clear(2)
-
-or 
-
-clear()
 ```

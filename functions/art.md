@@ -7,7 +7,7 @@
 ## Example:
 
 ```python
-import pytexttyper
+from pytexttyper import *
 
 art("Hello World")
 ```

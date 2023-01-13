@@ -4,7 +4,7 @@
 
 ## Functions
 
-* [wait()](functions/wait.md)
+* [wait()](functions/page-1.md)
 * [color()](functions/color.md)
 * [clear()](functions/clear.md)
 * [style()](functions/style.md)
