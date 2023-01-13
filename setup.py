@@ -1,6 +1,6 @@
 import setuptools
 
-MINIMAL_DESCRIPTION = '''PyTextTyper is a text engine written in python which prints text to the console, fully complete with animations, colors, and ASCII art!'''
+minimal_description = '''PyTextTyper is a text engine written in python which prints text to the console, fully complete with animations, colors, and ASCII art!'''
 
 def long_description():
     try:
@@ -9,19 +9,22 @@ def long_description():
             description += r.read()
         return description
     except Exception:
-        return MINIMAL_DESCRIPTION
+        return minimal_description
 
 setuptools.setup(
     name="PyTextTyper",
-    version="1.0.0",
+    version="1.0.1",
     author="Ollielab",
     author_email="mail@ollielab.xyz",
-    description="PyTextTyper is a text engine written in python which prints text to the console, fully complete with animations, colors, and ASCII art!",
+    description=minimal_description(),
     long_description=long_description(),
     long_description_content_type="text/markdown",
     url="https://github.com/Ollielab/PyTextTyper",
     packages=setuptools.find_packages(),
     python_requires='>=3.6',
+    install_requires=[
+          'art==5.8',
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
