@@ -1,1 +1,1 @@
-from .main import wait, art, clear, color, question, style, text, hold, colors, styles
+from pytexttyper.main import art, clear, color, question, style, text, hold
